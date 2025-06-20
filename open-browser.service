@@ -1,0 +1,16 @@
+[Unit]
+Description=Abre el navegador al iniciar la Raspberry Pi
+After=graphical.target
+Wants=graphical.target
+
+[Service]
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+Type=simple
+ExecStart=/usr/bin/python3 /home/pi/open_browser.py
+Restart=always
+User=pi
+Group=pi
+
+[Install]
+WantedBy=graphical.target
