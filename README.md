@@ -20,8 +20,8 @@ Sigue estos pasos para configurar el proyecto en una Raspberry Pi:
 1. Abre una terminal en la Raspberry Pi.
 2. Clona el repositorio desde GitHub:
    ```bash
-   git clone https://github.com/<TU_USUARIO>/<NOMBRE_DEL_REPOSITORIO>.git
-   cd <NOMBRE_DEL_REPOSITORIO>
+   git clone https://github.com/amulet1989/open_browser.git
+   cd open_browser
 
 ### 2. Instalar dependencias
 1. Instala la biblioteca python-dotenv para leer el archivo .env

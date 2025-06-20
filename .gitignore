@@ -1,0 +1,20 @@
+# Ignorar el archivo .env que contiene la URL sensible
+.env
+
+# Ignorar archivos generados por Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar archivos de configuración del sistema
+*.log
+*.pid
+
+# Ignorar directorios temporales o de caché
+.cache/
+*.bak
+*.swp
+
+# Ignorar archivos específicos de entornos locales
+.DS_Store
+*.local
